@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="zh-CN" data-page-node-id="XwFYNW9p435UUnCFNHHKKc">
-<head data-page-node-id="WbEk4JI4mVGW8sXxHKP0AA">
-<meta charset="utf-8" data-page-node-id="F0YnI2C4WeHjf3SugELnII">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" data-page-node-id="Go1hiGuZ32Ft4UxF9LZ8Mj">
+<html lang="zh-CN" data-page-node-id="LddNEsOA1PThnu3Ta6IkJ3">
+<head data-page-node-id="gJbp5WkSm7XoPDwHiQXiMb">
+<meta charset="utf-8" data-page-node-id="s0V6nDMyTiNV15nn2Nrt22">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" data-page-node-id="HuUdpf2PtUnYEN06MAMBgU">
 <title>河北安新中学 · 校园全景漫游</title>
-<link rel="stylesheet" href="vendor/pannellum.css" data-page-node-id="1wbuOiJAx1AdnYx3Exnhz6">
+<link rel="stylesheet" href="vendor/pannellum.css" data-page-node-id="jnp21ViNOPdtLSPoV29LQ2">
 <style>
   :root{
     --bg:#0f1115; --panel:#171a20; --panel-2:#1e222a;
@@ -79,7 +79,7 @@
     overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
   }
   #hint{
-    position:absolute; bottom:16px; left:50%; transform:translateX(-50%);
+    position:absolute; bottom:54px; left:50%; transform:translateX(-50%);
     z-index:10; padding:8px 16px; border-radius:20px;
     background:rgba(0,0,0,.55); border:1px solid var(--line-2);
     font-size:12px; color:#cfd6df; backdrop-filter:blur(6px);
@@ -101,7 +101,7 @@
     color:var(--txt); font-size:13px;
   }
 
-  /* ---------- 图钉热点（anxin-pin） ---------- */
+  /* ---------- 图钉热点 ---------- */
   /* Pannellum 带 cssClass 的热点，真实类名是 "pnlm-hotspot-base anxin-pin"（没有 pnlm-hotspot）。
      定位由 JS 用 offsetWidth/offsetHeight 把盒子【居中】到目标点，
      所以 div 必须保留真实尺寸（26x26），图钉的尖落在盒子中心 = 目标点。 */
@@ -142,6 +142,31 @@
   }
   .pnlm-hotspot-base.anxin-pin-back:hover::before{ filter:brightness(1.1) }
 
+  /* ---------- 右上角校徽与提示 ---------- */
+  #logoPanel{
+    position:absolute; top:14px; right:16px; z-index:12;
+    display:flex; flex-direction:column; align-items:center; gap:8px;
+    padding:10px 12px; border-radius:12px;
+    background:rgba(0,0,0,.55); border:1px solid var(--line-2);
+    backdrop-filter:blur(6px); pointer-events:auto;
+    max-width:120px;
+  }
+  #logoImg{
+    height:40px; width:auto; max-width:100%;
+    object-fit:contain; filter:drop-shadow(0 1px 2px rgba(0,0,0,.5));
+  }
+  .logo-tip{font-size:11px; color:#dfe6ef; line-height:1.35; text-align:center; white-space:nowrap}
+  .logo-tip strong{color:var(--accent)}
+
+  /* ---------- 底部规则栏 ---------- */
+  #bottomBar{
+    position:absolute; bottom:0; left:0; right:0; z-index:11;
+    padding:8px 16px;
+    background:rgba(0,0,0,.55); border-top:1px solid var(--line-2);
+    font-size:12px; color:#cfd6df; text-align:center; line-height:1.5;
+    backdrop-filter:blur(6px);
+  }
+
   /* ---------- 移动端 ---------- */
   @media (max-width:768px){
     #sidebar{
@@ -151,38 +176,54 @@
     #sidebar.open{transform:translateX(0)}
     #scrim.show{display:block}
     #menuBtn{display:block}
+    #logoPanel{top:58px; right:10px; padding:8px 10px;}
+    .logo-tip{font-size:10px;}
+    #bottomBar{font-size:11px; padding:6px 10px;}
+    #hint{bottom:48px;}
   }
 </style>
 </head>
-<body data-page-node-id="4SpQkEtnY3IzUE84cABAbY">
-<div id="app" data-page-node-id="u1CfJpECabypKi3IV0FodE">
-  <aside id="sidebar" data-page-node-id="HMbfPEjUX1bhYl1U9JWeEd">
-    <div class="brand" data-page-node-id="bJIcZyr4nnwlABWmarmuh0">
-      <h1 data-page-node-id="Fl87hncvPzywb8r0a6YnUO">河北安新中学</h1>
-      <p data-page-node-id="FNjrR0B85SHiAIEeKjtGyr">校园全景漫游 · 点击地点切换视角</p>
+<body data-page-node-id="XxZBFLpVu7RymAwSXzYBQ7">
+<div id="app" data-page-node-id="VfzmAaX2kKB1L670YaEniL">
+  <aside id="sidebar" data-page-node-id="x3CQpxZuNwMK598A0KNF7E">
+    <div class="brand" data-page-node-id="KnE5SMQO21dzNjEOXAIUoW">
+      <h1 data-page-node-id="8STLXfPmjvmFtuxIwE5mmb">河北安新中学</h1>
+      <p data-page-node-id="dLlYhUAaqFK2raxl5sK9js">校园全景漫游 · 点击地点切换视角</p>
     </div>
-    <div class="list-label" data-page-node-id="hDVBQ8GAA2tVSoAZ6Hbokz">地点</div>
-    <nav id="sceneList" data-page-node-id="dm4oWaANRhU4oy9sbKIsGT"></nav>
-    <div class="side-foot" data-page-node-id="ImvmEMx86abN2pvsvXOvn6">
-      拖动全景环视四周，点击画面中的圆形热点跳转。<br data-page-node-id="VimkcgTIVx69ExBA8Fr6NW">
+    <div class="list-label" data-page-node-id="X5AdIqFdTj9BUXIDDMYNZ3">地点</div>
+    <nav id="sceneList" data-page-node-id="Eq8jDy3yTU9pujKn1bdgla"></nav>
+    <div class="side-foot" data-page-node-id="LwF3Z9qsCQeVh0TYyPuM3e">
+      拖动全景环视四周，点击画面中的圆形热点跳转。<br data-page-node-id="9nosCJPHHGgSQiL7fAPcCG">
       Powered by Pannellum
     </div>
   </aside>
 
-  <main id="stage" data-page-node-id="LAB8CbdHir3ciwq6cioBAD">
-    <div id="panorama" data-page-node-id="3yCoInkxCJLmfBijiHNFz3"></div>
-    <div id="scrim" data-page-node-id="T7WSDss1pjv78mqxUgHbzH"></div>
-    <div id="topbar" data-page-node-id="70qNHRf3WifFWChY12Izwe">
-      <button id="menuBtn" aria-label="地点列表" data-page-node-id="FFb7iREG8PdIPg0qhHE6j3">
-        <svg viewBox="0 0 24 24" stroke-linecap="round" data-page-node-id="BDJeCdPP2fIotwD233nm7p"><path d="M3 6h18M3 12h18M3 18h18" data-page-node-id="rhqypfxZSUXB8SApo9JM0T"/></svg>
+  <main id="stage" data-page-node-id="ZyBnGxVo2eBzZ5QRymSQTK">
+    <div id="panorama" data-page-node-id="bYun4HrrW3PBr0ZDcLe8Nv"></div>
+    <div id="scrim" data-page-node-id="tYSIZ074RQtjBuGEAuORP8"></div>
+    <div id="topbar" data-page-node-id="q1LLobzgHmtbuK39LVjW0d">
+      <button id="menuBtn" aria-label="地点列表" data-page-node-id="0shlJ9YkyhEztcNHqXawXK">
+        <svg viewBox="0 0 24 24" stroke-linecap="round" data-page-node-id="uKXUi8rvza1cn3eY28w0iC"><path d="M3 6h18M3 12h18M3 18h18" data-page-node-id="ZmAD43aA90SLZMsbHiRRVy"/></svg>
       </button>
-      <div id="nowTitle" data-page-node-id="7OaE114YGhqGinKLe0twQY"></div>
+      <div id="nowTitle" data-page-node-id="l5lBGDiuT3gBKx7E3afHeL"></div>
     </div>
-    <div id="hint" data-page-node-id="YR59Y18B0TVreCj41IpPjj">拖动画面环视，点击光点前往下一处</div>
-    <div id="err" data-page-node-id="uQzgoYLD9oxIaR3sxxS8Qe">
-      <p data-page-node-id="GVYiMmHxublvElBgq7K4XS">全景配置加载失败。</p>
-      <p data-page-node-id="doKRfW7wLDWFOX7bD338E4">这个页面需要通过 HTTP 打开，直接双击 HTML 文件会被浏览器拦住。</p>
-      <p data-page-node-id="Hg0HaHx8Ua8DtaveLZHY2F">在项目目录执行 <code data-page-node-id="nQrIhx1qLxbIOCIoj1FrSt">python -m http.server 8000</code><br data-page-node-id="Vwt5FuNiyRIKN5ywtEXhY1">然后访问 <code data-page-node-id="hDG59wk6tb3vwZzD1VaUAO">http://localhost:8000</code></p>
+
+    <div id="logoPanel" data-page-node-id="t35vloGWJ29sFR3pw6ETsM">
+      <img id="logoImg" src="assets/badge1.jpg" alt="河北安新中学校徽" data-page-node-id="bpU2eq2ZVjKTXYK82bZE1j">
+      <div class="logo-tip" data-page-node-id="s2GBOHuPZEDTZ5OruKazVw"><strong data-page-node-id="Y0n00fvYuPRaI6cvWH3BLF">单击蓝钉</strong>：显示楼名</div>
+      <div class="logo-tip" data-page-node-id="y1d4mmwg55LYpzDLZCukZZ"><strong data-page-node-id="EJZlGIMlPDc6eAQXwbdcp8">再点一下</strong>：确认传送</div>
+    </div>
+
+    <div id="hint" data-page-node-id="QkNdnY9AhEj1IuHUmA1WrG">拖动画面环视，点击光点前往下一处</div>
+
+    <div id="bottomBar" data-page-node-id="3Rgh7slPz0zl2qxfwugtFA">
+      拖动旋转 · 滚轮/双指缩放 · 双击空地放大 · 蓝色图钉点一下看楼名、再点传送 · 红色图钉：返回校园全景 · 传送后自动恢复正常视角
+    </div>
+
+    <div id="err" data-page-node-id="egkRENOLJexFFzrKErpUKF">
+      <p data-page-node-id="jjcUQM5WFLdDmLFHTBD5W1">全景配置加载失败。</p>
+      <p data-page-node-id="GHg99ZPjRrEPrCi7PUxE9P">这个页面需要通过 HTTP 打开，直接双击 HTML 文件会被浏览器拦住。</p>
+      <p data-page-node-id="zpVvu2GvhrVt87d2CtNAHH">在项目目录执行 <code data-page-node-id="7NQiehocDkJpqpjoJkqGNR">python -m http.server 8000</code><br data-page-node-id="o869GWdSz386qJDLLdQ4aH">然后访问 <code data-page-node-id="HsM2nQ5mKfkTqQvtN58oF0">http://localhost:8000</code></p>
     </div>
   </main>
 </div>
@@ -191,6 +232,7 @@
 <script>
 (function () {
   var viewer = null;
+  var lastClick = { sceneId: null, time: 0 };
 
   function el(id) { return document.getElementById(id); }
 
@@ -237,6 +279,37 @@
   el('menuBtn').addEventListener('click', openSidebar);
   el('scrim').addEventListener('click', closeSidebar);
 
+  // 处理热点点击：第一次显示提示，第二次（500ms 内）跳转
+  function handleHotspotClick(args) {
+    var now = Date.now();
+    var same = lastClick.sceneId === args.sceneId && (now - lastClick.time) < 500;
+    if (same) {
+      lastClick = { sceneId: null, time: 0 };
+      // 跳转到目标场景，并强制 hfov=100（恢复正常视角）
+      viewer.loadScene(args.sceneId, args.targetPitch || 0, args.targetYaw || 0, 100);
+      // 同时确保当前 hfov 立即正常
+      setTimeout(function () { viewer.setHfov(100); }, 50);
+    } else {
+      lastClick = { sceneId: args.sceneId, time: now };
+      // 显示临时提示
+      var hint = el('hint');
+      if (hint) {
+        hint.textContent = '再点一次确认传送：' + args.text;
+        hint.style.animation = 'none';
+        hint.style.visibility = 'visible';
+        hint.style.opacity = '1';
+      }
+    }
+  }
+
+  // 取消 Pannellum 默认的热点 onclick（否则单点就跳）
+  function disableDefaultHotspotClicks() {
+    document.querySelectorAll('.pnlm-hotspot-base').forEach(function (div) {
+      div.onclick = null;
+      div.ontouchend = null;
+    });
+  }
+
   fetch('tour.json', { cache: 'no-store' })
     .then(function (r) {
       if (!r.ok) throw new Error('HTTP ' + r.status);
@@ -244,9 +317,36 @@
     })
     .then(function (cfg) {
       window.__tour = cfg;
+
+      // 给所有热点注入自定义 clickHandler，接管点击行为
+      Object.keys(cfg.scenes).forEach(function (sid) {
+        (cfg.scenes[sid].hotSpots || []).forEach(function (h) {
+          if (h.type === 'scene') {
+            h.clickHandlerFunc = function (e, args) {
+              handleHotspotClick(args);
+            };
+            h.clickHandlerArgs = {
+              text: h.text,
+              sceneId: h.sceneId,
+              targetPitch: h.targetPitch || 0,
+              targetYaw: h.targetYaw || 0
+            };
+          }
+        });
+      });
+
       buildList(cfg);
       viewer = pannellum.viewer('panorama', cfg);
       viewer.on('scenechange', setActive);
+
+      // 每次加载场景后，禁用默认热点 click
+      viewer.on('load', disableDefaultHotspotClicks);
+      viewer.on('scenechange', function () {
+        setTimeout(disableDefaultHotspotClicks, 80);
+      });
+
+      // 初始场景也禁用
+      setTimeout(disableDefaultHotspotClicks, 200);
       setActive(cfg.default.firstScene);
     })
     .catch(function (e) {
