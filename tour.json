@@ -1,0 +1,1708 @@
+{
+  "default": {
+    "firstScene": "aerial",
+    "author": "栗浩煦",
+    "sceneFadeDuration": 1200,
+    "autoLoad": true,
+    "showControls": true,
+    "showZoomCtrl": true,
+    "showFullscreenCtrl": true,
+    "keyboardZoom": true,
+    "mouseZoom": true,
+    "draggable": true,
+    "friction": 0.15,
+    "hotSpotDebug": false
+  },
+  "scenes": {
+    "aerial": {
+      "title": "校园全景（鸟瞰）",
+      "type": "equirectangular",
+      "panorama": "panos/campus-aerial.jpg",
+      "hfov": 120,
+      "pitch": -15,
+      "yaw": 0,
+      "hotSpots": [
+        {
+          "pitch": -52.0,
+          "yaw": 0.3,
+          "type": "scene",
+          "text": "育德楼",
+          "sceneId": "main",
+          "targetYaw": 0,
+          "targetPitch": 0,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -18.4,
+          "yaw": 1.4,
+          "type": "scene",
+          "text": "宿舍三区",
+          "sceneId": "dorm3",
+          "targetYaw": 0,
+          "targetPitch": 0,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -19.6,
+          "yaw": -36.7,
+          "type": "scene",
+          "text": "启慧楼",
+          "sceneId": "qihui",
+          "targetYaw": 0,
+          "targetPitch": 0,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -17.3,
+          "yaw": -31.5,
+          "type": "scene",
+          "text": "宿舍一区",
+          "sceneId": "dorm1",
+          "targetYaw": 0,
+          "targetPitch": 0,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -27.7,
+          "yaw": -22.8,
+          "type": "scene",
+          "text": "宿舍二区",
+          "sceneId": "dorm2",
+          "targetYaw": 0,
+          "targetPitch": 0,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -20.2,
+          "yaw": -9.0,
+          "type": "scene",
+          "text": "操场",
+          "sceneId": "playground",
+          "targetYaw": 0,
+          "targetPitch": 0,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -32.3,
+          "yaw": -0.9,
+          "type": "scene",
+          "text": "求知楼",
+          "sceneId": "qiuzhi",
+          "targetYaw": 0,
+          "targetPitch": 0,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -63.6,
+          "yaw": -26.3,
+          "type": "scene",
+          "text": "日新楼",
+          "sceneId": "rixin",
+          "targetYaw": 0,
+          "targetPitch": 0,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -32.3,
+          "yaw": 9.5,
+          "type": "scene",
+          "text": "食堂",
+          "sceneId": "canteen",
+          "targetYaw": 0,
+          "targetPitch": 0,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -44.5,
+          "yaw": 17.0,
+          "type": "scene",
+          "text": "明理楼",
+          "sceneId": "mingli",
+          "targetYaw": 0,
+          "targetPitch": 0,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -48.5,
+          "yaw": 18.8,
+          "type": "scene",
+          "text": "求真楼",
+          "sceneId": "qiuzhen",
+          "targetYaw": 0,
+          "targetPitch": 0,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -58.9,
+          "yaw": 49.4,
+          "type": "scene",
+          "text": "东花园",
+          "sceneId": "garden",
+          "targetYaw": 0,
+          "targetPitch": 0,
+          "cssClass": "anxin-pin"
+        }
+      ]
+    },
+    "rixin": {
+      "title": "日新楼",
+      "type": "equirectangular",
+      "panorama": "panos/rixin.jpg",
+      "hfov": 100,
+      "pitch": -8,
+      "yaw": 0,
+      "hotSpots": [
+        {
+          "pitch": -2.7,
+          "yaw": -11.8,
+          "type": "scene",
+          "text": "启慧楼",
+          "sceneId": "qihui",
+          "targetYaw": -43.1,
+          "targetPitch": -9.8,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -3.3,
+          "yaw": 1.9,
+          "type": "scene",
+          "text": "宿舍一区",
+          "sceneId": "dorm1",
+          "targetYaw": 144.8,
+          "targetPitch": -6.1,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -7.6,
+          "yaw": 18.1,
+          "type": "scene",
+          "text": "宿舍二区",
+          "sceneId": "dorm2",
+          "targetYaw": -108.5,
+          "targetPitch": -4.0,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -6.5,
+          "yaw": 28.7,
+          "type": "scene",
+          "text": "操场",
+          "sceneId": "playground",
+          "targetYaw": 177.9,
+          "targetPitch": -6.5,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -28.0,
+          "yaw": 47.5,
+          "type": "scene",
+          "text": "育德楼",
+          "sceneId": "main",
+          "targetYaw": -132.2,
+          "targetPitch": -7.8,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -8.5,
+          "yaw": 38.7,
+          "type": "scene",
+          "text": "求知楼",
+          "sceneId": "qiuzhi",
+          "targetYaw": -171.9,
+          "targetPitch": -11.8,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -4.3,
+          "yaw": 40.5,
+          "type": "scene",
+          "text": "宿舍三区",
+          "sceneId": "dorm3",
+          "targetYaw": 131.0,
+          "targetPitch": -3.4,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -12.0,
+          "yaw": 54.4,
+          "type": "scene",
+          "text": "食堂",
+          "sceneId": "canteen",
+          "targetYaw": 114.8,
+          "targetPitch": -6.9,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -7.9,
+          "yaw": 59.8,
+          "type": "scene",
+          "text": "明理楼",
+          "sceneId": "mingli",
+          "targetYaw": 141.9,
+          "targetPitch": -20.2,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -15.4,
+          "yaw": 91.9,
+          "type": "scene",
+          "text": "求真楼",
+          "sceneId": "qiuzhen",
+          "targetYaw": 143.6,
+          "targetPitch": -22.0,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -24.8,
+          "yaw": 121.4,
+          "type": "scene",
+          "text": "东花园",
+          "sceneId": "garden",
+          "targetYaw": -167.2,
+          "targetPitch": -17.5,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -78.6,
+          "yaw": 180,
+          "type": "scene",
+          "text": "返回校园全景",
+          "sceneId": "aerial",
+          "targetYaw": -26.3,
+          "targetPitch": -63.6,
+          "cssClass": "anxin-pin-back"
+        }
+      ]
+    },
+    "qihui": {
+      "title": "启慧楼",
+      "type": "equirectangular",
+      "panorama": "panos/qihui.jpg",
+      "hfov": 100,
+      "pitch": -8,
+      "yaw": 0,
+      "hotSpots": [
+        {
+          "pitch": -9.8,
+          "yaw": -43.1,
+          "type": "scene",
+          "text": "日新楼",
+          "sceneId": "rixin",
+          "targetYaw": -11.8,
+          "targetPitch": -2.7,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -33.9,
+          "yaw": -178.7,
+          "type": "scene",
+          "text": "宿舍一区",
+          "sceneId": "dorm1",
+          "targetYaw": 177.4,
+          "targetPitch": -21.2,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -23.7,
+          "yaw": -77.4,
+          "type": "scene",
+          "text": "宿舍二区",
+          "sceneId": "dorm2",
+          "targetYaw": 1.6,
+          "targetPitch": -4.2,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -16.7,
+          "yaw": -125.9,
+          "type": "scene",
+          "text": "操场",
+          "sceneId": "playground",
+          "targetYaw": -130.2,
+          "targetPitch": -9.1,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -12.8,
+          "yaw": -57.2,
+          "type": "scene",
+          "text": "育德楼",
+          "sceneId": "main",
+          "targetYaw": -58.7,
+          "targetPitch": -0.4,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -10.4,
+          "yaw": -85.7,
+          "type": "scene",
+          "text": "求知楼",
+          "sceneId": "qiuzhi",
+          "targetYaw": -88.9,
+          "targetPitch": -7.9,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -10.3,
+          "yaw": -132.2,
+          "type": "scene",
+          "text": "宿舍三区",
+          "sceneId": "dorm3",
+          "targetYaw": 169.2,
+          "targetPitch": -4.0,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -11.5,
+          "yaw": -82.4,
+          "type": "scene",
+          "text": "食堂",
+          "sceneId": "canteen",
+          "targetYaw": -177.2,
+          "targetPitch": -4.3,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -8.1,
+          "yaw": -67.6,
+          "type": "scene",
+          "text": "明理楼",
+          "sceneId": "mingli",
+          "targetYaw": -154.8,
+          "targetPitch": -6.5,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -6.5,
+          "yaw": -54.9,
+          "type": "scene",
+          "text": "求真楼",
+          "sceneId": "qiuzhen",
+          "targetYaw": -154.8,
+          "targetPitch": -6.0,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -9.2,
+          "yaw": -52.1,
+          "type": "scene",
+          "text": "东花园",
+          "sceneId": "garden",
+          "targetYaw": -150.5,
+          "targetPitch": -5.7,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -88.1,
+          "yaw": 180,
+          "type": "scene",
+          "text": "返回校园全景",
+          "sceneId": "aerial",
+          "targetYaw": -36.7,
+          "targetPitch": -19.6,
+          "cssClass": "anxin-pin-back"
+        }
+      ]
+    },
+    "dorm1": {
+      "title": "宿舍一区",
+      "type": "equirectangular",
+      "panorama": "panos/dorm1.jpg",
+      "hfov": 100,
+      "pitch": -8,
+      "yaw": 0,
+      "hotSpots": [
+        {
+          "pitch": -6.1,
+          "yaw": 144.8,
+          "type": "scene",
+          "text": "日新楼",
+          "sceneId": "rixin",
+          "targetYaw": 1.9,
+          "targetPitch": -3.3,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -21.2,
+          "yaw": 177.4,
+          "type": "scene",
+          "text": "启慧楼",
+          "sceneId": "qihui",
+          "targetYaw": -178.7,
+          "targetPitch": -33.9,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -13.3,
+          "yaw": 134.3,
+          "type": "scene",
+          "text": "宿舍二区",
+          "sceneId": "dorm2",
+          "targetYaw": 39.6,
+          "targetPitch": -4.2,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -17.9,
+          "yaw": 82.3,
+          "type": "scene",
+          "text": "操场",
+          "sceneId": "playground",
+          "targetYaw": -96.3,
+          "targetPitch": -10.4,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -8.6,
+          "yaw": 134.8,
+          "type": "scene",
+          "text": "育德楼",
+          "sceneId": "main",
+          "targetYaw": -43.7,
+          "targetPitch": -1.5,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -9.8,
+          "yaw": 116.3,
+          "type": "scene",
+          "text": "求知楼",
+          "sceneId": "qiuzhi",
+          "targetYaw": -63.6,
+          "targetPitch": -7.0,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -8.8,
+          "yaw": 63.9,
+          "type": "scene",
+          "text": "宿舍三区",
+          "sceneId": "dorm3",
+          "targetYaw": -166.2,
+          "targetPitch": -7.6,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -6.0,
+          "yaw": 113.5,
+          "type": "scene",
+          "text": "食堂",
+          "sceneId": "canteen",
+          "targetYaw": -153.9,
+          "targetPitch": -5.0,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -5.9,
+          "yaw": 127.8,
+          "type": "scene",
+          "text": "明理楼",
+          "sceneId": "mingli",
+          "targetYaw": -136.4,
+          "targetPitch": -5.8,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -4.5,
+          "yaw": 136.8,
+          "type": "scene",
+          "text": "求真楼",
+          "sceneId": "qiuzhen",
+          "targetYaw": -133.2,
+          "targetPitch": -6.3,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -7.6,
+          "yaw": 140.0,
+          "type": "scene",
+          "text": "东花园",
+          "sceneId": "garden",
+          "targetYaw": -137.7,
+          "targetPitch": -5.3,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -83.1,
+          "yaw": 180,
+          "type": "scene",
+          "text": "返回校园全景",
+          "sceneId": "aerial",
+          "targetYaw": -31.5,
+          "targetPitch": -17.3,
+          "cssClass": "anxin-pin-back"
+        }
+      ]
+    },
+    "dorm2": {
+      "title": "宿舍二区",
+      "type": "equirectangular",
+      "panorama": "panos/dorm2.jpg",
+      "hfov": 100,
+      "pitch": -8,
+      "yaw": 0,
+      "hotSpots": [
+        {
+          "pitch": -4.0,
+          "yaw": -108.5,
+          "type": "scene",
+          "text": "日新楼",
+          "sceneId": "rixin",
+          "targetYaw": 18.1,
+          "targetPitch": -7.6,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -4.2,
+          "yaw": 1.6,
+          "type": "scene",
+          "text": "启慧楼",
+          "sceneId": "qihui",
+          "targetYaw": -77.4,
+          "targetPitch": -23.7,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -4.2,
+          "yaw": 39.6,
+          "type": "scene",
+          "text": "宿舍一区",
+          "sceneId": "dorm1",
+          "targetYaw": 134.3,
+          "targetPitch": -13.3,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -12.1,
+          "yaw": 103.1,
+          "type": "scene",
+          "text": "操场",
+          "sceneId": "playground",
+          "targetYaw": -167.3,
+          "targetPitch": -13.8,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -9.7,
+          "yaw": -130.5,
+          "type": "scene",
+          "text": "育德楼",
+          "sceneId": "main",
+          "targetYaw": -36.2,
+          "targetPitch": -5.6,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -6.9,
+          "yaw": 171.4,
+          "type": "scene",
+          "text": "求知楼",
+          "sceneId": "qiuzhi",
+          "targetYaw": -80.4,
+          "targetPitch": -27.7,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -5.4,
+          "yaw": 114.4,
+          "type": "scene",
+          "text": "宿舍三区",
+          "sceneId": "dorm3",
+          "targetYaw": 147.2,
+          "targetPitch": -7.6,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -10.0,
+          "yaw": -174.8,
+          "type": "scene",
+          "text": "食堂",
+          "sceneId": "canteen",
+          "targetYaw": -172.3,
+          "targetPitch": -18.7,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -3.1,
+          "yaw": -148.2,
+          "type": "scene",
+          "text": "明理楼",
+          "sceneId": "mingli",
+          "targetYaw": -136.2,
+          "targetPitch": -13.9,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -2.9,
+          "yaw": -129.8,
+          "type": "scene",
+          "text": "求真楼",
+          "sceneId": "qiuzhen",
+          "targetYaw": -135.7,
+          "targetPitch": -14.2,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -6.3,
+          "yaw": -124.9,
+          "type": "scene",
+          "text": "东花园",
+          "sceneId": "garden",
+          "targetYaw": -135.0,
+          "targetPitch": -10.5,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -87.1,
+          "yaw": 180,
+          "type": "scene",
+          "text": "返回校园全景",
+          "sceneId": "aerial",
+          "targetYaw": -22.8,
+          "targetPitch": -27.7,
+          "cssClass": "anxin-pin-back"
+        }
+      ]
+    },
+    "playground": {
+      "title": "操场",
+      "type": "equirectangular",
+      "panorama": "panos/playground.jpg",
+      "hfov": 100,
+      "pitch": -8,
+      "yaw": 0,
+      "hotSpots": [
+        {
+          "pitch": -6.5,
+          "yaw": 177.9,
+          "type": "scene",
+          "text": "日新楼",
+          "sceneId": "rixin",
+          "targetYaw": 28.7,
+          "targetPitch": -6.5,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -9.1,
+          "yaw": -130.2,
+          "type": "scene",
+          "text": "启慧楼",
+          "sceneId": "qihui",
+          "targetYaw": -125.9,
+          "targetPitch": -16.7,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -10.4,
+          "yaw": -96.3,
+          "type": "scene",
+          "text": "宿舍一区",
+          "sceneId": "dorm1",
+          "targetYaw": 82.3,
+          "targetPitch": -17.9,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -13.8,
+          "yaw": -167.3,
+          "type": "scene",
+          "text": "宿舍二区",
+          "sceneId": "dorm2",
+          "targetYaw": 103.1,
+          "targetPitch": -12.1,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -8.4,
+          "yaw": 165.2,
+          "type": "scene",
+          "text": "育德楼",
+          "sceneId": "main",
+          "targetYaw": -10.9,
+          "targetPitch": -5.7,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -12.8,
+          "yaw": 159.0,
+          "type": "scene",
+          "text": "求知楼",
+          "sceneId": "qiuzhi",
+          "targetYaw": -23.7,
+          "targetPitch": -15.9,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -19.4,
+          "yaw": 37.0,
+          "type": "scene",
+          "text": "宿舍三区",
+          "sceneId": "dorm3",
+          "targetYaw": 159.0,
+          "targetPitch": -26.6,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -13.7,
+          "yaw": 140.7,
+          "type": "scene",
+          "text": "食堂",
+          "sceneId": "canteen",
+          "targetYaw": -117.8,
+          "targetPitch": -13.3,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -6.0,
+          "yaw": 155.7,
+          "type": "scene",
+          "text": "明理楼",
+          "sceneId": "mingli",
+          "targetYaw": -106.2,
+          "targetPitch": -11.4,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -3.9,
+          "yaw": 160.5,
+          "type": "scene",
+          "text": "求真楼",
+          "sceneId": "qiuzhen",
+          "targetYaw": -106.3,
+          "targetPitch": -11.5,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -5.0,
+          "yaw": 163.5,
+          "type": "scene",
+          "text": "东花园",
+          "sceneId": "garden",
+          "targetYaw": -112.7,
+          "targetPitch": -8.0,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -87.4,
+          "yaw": 180,
+          "type": "scene",
+          "text": "返回校园全景",
+          "sceneId": "aerial",
+          "targetYaw": -9.0,
+          "targetPitch": -20.2,
+          "cssClass": "anxin-pin-back"
+        }
+      ]
+    },
+    "main": {
+      "title": "育德楼",
+      "type": "equirectangular",
+      "panorama": "panos/main.jpg",
+      "hfov": 100,
+      "pitch": -8,
+      "yaw": 0,
+      "hotSpots": [
+        {
+          "pitch": -7.8,
+          "yaw": -132.2,
+          "type": "scene",
+          "text": "日新楼",
+          "sceneId": "rixin",
+          "targetYaw": 47.5,
+          "targetPitch": -28.0,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -0.4,
+          "yaw": -58.7,
+          "type": "scene",
+          "text": "启慧楼",
+          "sceneId": "qihui",
+          "targetYaw": -57.2,
+          "targetPitch": -12.8,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -1.5,
+          "yaw": -43.7,
+          "type": "scene",
+          "text": "宿舍一区",
+          "sceneId": "dorm1",
+          "targetYaw": 134.8,
+          "targetPitch": -8.6,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -5.6,
+          "yaw": -36.2,
+          "type": "scene",
+          "text": "宿舍二区",
+          "sceneId": "dorm2",
+          "targetYaw": -130.5,
+          "targetPitch": -9.7,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -5.7,
+          "yaw": -10.9,
+          "type": "scene",
+          "text": "操场",
+          "sceneId": "playground",
+          "targetYaw": 165.2,
+          "targetPitch": -8.4,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -2.0,
+          "yaw": 0.0,
+          "type": "scene",
+          "text": "求知楼",
+          "sceneId": "qiuzhi",
+          "targetYaw": 172.1,
+          "targetPitch": -23.8,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -1.0,
+          "yaw": 6.9,
+          "type": "scene",
+          "text": "宿舍三区",
+          "sceneId": "dorm3",
+          "targetYaw": 123.4,
+          "targetPitch": -5.5,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -6.0,
+          "yaw": 27.5,
+          "type": "scene",
+          "text": "食堂",
+          "sceneId": "canteen",
+          "targetYaw": 109.0,
+          "targetPitch": -16.7,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -5.3,
+          "yaw": 40.0,
+          "type": "scene",
+          "text": "明理楼",
+          "sceneId": "mingli",
+          "targetYaw": -164.9,
+          "targetPitch": -60.4,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -6.0,
+          "yaw": 132.9,
+          "type": "scene",
+          "text": "求真楼",
+          "sceneId": "qiuzhen",
+          "targetYaw": -150.6,
+          "targetPitch": -57.9,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -12.9,
+          "yaw": 145.3,
+          "type": "scene",
+          "text": "东花园",
+          "sceneId": "garden",
+          "targetYaw": -132.4,
+          "targetPitch": -25.0,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -85.8,
+          "yaw": 180,
+          "type": "scene",
+          "text": "返回校园全景",
+          "sceneId": "aerial",
+          "targetYaw": 0.3,
+          "targetPitch": -52.0,
+          "cssClass": "anxin-pin-back"
+        }
+      ]
+    },
+    "qiuzhi": {
+      "title": "求知楼",
+      "type": "equirectangular",
+      "panorama": "panos/qiuzhi.jpg",
+      "hfov": 100,
+      "pitch": -8,
+      "yaw": 0,
+      "hotSpots": [
+        {
+          "pitch": -11.8,
+          "yaw": -171.9,
+          "type": "scene",
+          "text": "日新楼",
+          "sceneId": "rixin",
+          "targetYaw": 38.7,
+          "targetPitch": -8.5,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -7.9,
+          "yaw": -88.9,
+          "type": "scene",
+          "text": "启慧楼",
+          "sceneId": "qihui",
+          "targetYaw": -85.7,
+          "targetPitch": -10.4,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -7.0,
+          "yaw": -63.6,
+          "type": "scene",
+          "text": "宿舍一区",
+          "sceneId": "dorm1",
+          "targetYaw": 116.3,
+          "targetPitch": -9.8,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -27.7,
+          "yaw": -80.4,
+          "type": "scene",
+          "text": "宿舍二区",
+          "sceneId": "dorm2",
+          "targetYaw": 171.4,
+          "targetPitch": -6.9,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -15.9,
+          "yaw": -23.7,
+          "type": "scene",
+          "text": "操场",
+          "sceneId": "playground",
+          "targetYaw": 159.0,
+          "targetPitch": -12.8,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -23.8,
+          "yaw": 172.1,
+          "type": "scene",
+          "text": "育德楼",
+          "sceneId": "main",
+          "targetYaw": 0.0,
+          "targetPitch": -2.0,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -9.0,
+          "yaw": -0.4,
+          "type": "scene",
+          "text": "宿舍三区",
+          "sceneId": "dorm3",
+          "targetYaw": 124.0,
+          "targetPitch": -9.0,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -37.8,
+          "yaw": 70.4,
+          "type": "scene",
+          "text": "食堂",
+          "sceneId": "canteen",
+          "targetYaw": -146.4,
+          "targetPitch": -23.4,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -22.2,
+          "yaw": 136.9,
+          "type": "scene",
+          "text": "明理楼",
+          "sceneId": "mingli",
+          "targetYaw": -103.9,
+          "targetPitch": -15.3,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -11.0,
+          "yaw": 155.7,
+          "type": "scene",
+          "text": "求真楼",
+          "sceneId": "qiuzhen",
+          "targetYaw": -103.2,
+          "targetPitch": -15.1,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -13.4,
+          "yaw": 158.9,
+          "type": "scene",
+          "text": "东花园",
+          "sceneId": "garden",
+          "targetYaw": -115.5,
+          "targetPitch": -12.0,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -85.3,
+          "yaw": 180,
+          "type": "scene",
+          "text": "返回校园全景",
+          "sceneId": "aerial",
+          "targetYaw": -0.9,
+          "targetPitch": -32.3,
+          "cssClass": "anxin-pin-back"
+        }
+      ]
+    },
+    "dorm3": {
+      "title": "宿舍三区",
+      "type": "equirectangular",
+      "panorama": "panos/dorm3.jpg",
+      "hfov": 100,
+      "pitch": -8,
+      "yaw": 0,
+      "hotSpots": [
+        {
+          "pitch": -3.4,
+          "yaw": 131.0,
+          "type": "scene",
+          "text": "日新楼",
+          "sceneId": "rixin",
+          "targetYaw": 40.5,
+          "targetPitch": -4.3,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -4.0,
+          "yaw": 169.2,
+          "type": "scene",
+          "text": "启慧楼",
+          "sceneId": "qihui",
+          "targetYaw": -132.2,
+          "targetPitch": -10.3,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -7.6,
+          "yaw": -166.2,
+          "type": "scene",
+          "text": "宿舍一区",
+          "sceneId": "dorm1",
+          "targetYaw": 63.9,
+          "targetPitch": -8.8,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -7.6,
+          "yaw": 147.2,
+          "type": "scene",
+          "text": "宿舍二区",
+          "sceneId": "dorm2",
+          "targetYaw": 114.4,
+          "targetPitch": -5.4,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -26.6,
+          "yaw": 159.0,
+          "type": "scene",
+          "text": "操场",
+          "sceneId": "playground",
+          "targetYaw": 37.0,
+          "targetPitch": -19.4,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -5.5,
+          "yaw": 123.4,
+          "type": "scene",
+          "text": "育德楼",
+          "sceneId": "main",
+          "targetYaw": 6.9,
+          "targetPitch": -1.0,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -9.0,
+          "yaw": 124.0,
+          "type": "scene",
+          "text": "求知楼",
+          "sceneId": "qiuzhi",
+          "targetYaw": -0.4,
+          "targetPitch": -9.0,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -10.8,
+          "yaw": 110.3,
+          "type": "scene",
+          "text": "食堂",
+          "sceneId": "canteen",
+          "targetYaw": -92.8,
+          "targetPitch": -9.6,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -4.6,
+          "yaw": 115.9,
+          "type": "scene",
+          "text": "明理楼",
+          "sceneId": "mingli",
+          "targetYaw": -90.7,
+          "targetPitch": -9.7,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -2.9,
+          "yaw": 117.5,
+          "type": "scene",
+          "text": "求真楼",
+          "sceneId": "qiuzhen",
+          "targetYaw": -89.8,
+          "targetPitch": -7.8,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -5.3,
+          "yaw": 119.5,
+          "type": "scene",
+          "text": "东花园",
+          "sceneId": "garden",
+          "targetYaw": -100.0,
+          "targetPitch": -8.0,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -86.9,
+          "yaw": 180,
+          "type": "scene",
+          "text": "返回校园全景",
+          "sceneId": "aerial",
+          "targetYaw": 1.4,
+          "targetPitch": -18.4,
+          "cssClass": "anxin-pin-back"
+        }
+      ]
+    },
+    "canteen": {
+      "title": "食堂",
+      "type": "equirectangular",
+      "panorama": "panos/canteen.jpg",
+      "hfov": 100,
+      "pitch": -8,
+      "yaw": 0,
+      "hotSpots": [
+        {
+          "pitch": -6.9,
+          "yaw": 114.8,
+          "type": "scene",
+          "text": "日新楼",
+          "sceneId": "rixin",
+          "targetYaw": 54.4,
+          "targetPitch": -12.0,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -4.3,
+          "yaw": -177.2,
+          "type": "scene",
+          "text": "启慧楼",
+          "sceneId": "qihui",
+          "targetYaw": -82.4,
+          "targetPitch": -11.5,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -5.0,
+          "yaw": -153.9,
+          "type": "scene",
+          "text": "宿舍一区",
+          "sceneId": "dorm1",
+          "targetYaw": 113.5,
+          "targetPitch": -6.0,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -18.7,
+          "yaw": -172.3,
+          "type": "scene",
+          "text": "宿舍二区",
+          "sceneId": "dorm2",
+          "targetYaw": -174.8,
+          "targetPitch": -10.0,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -13.3,
+          "yaw": -117.8,
+          "type": "scene",
+          "text": "操场",
+          "sceneId": "playground",
+          "targetYaw": 140.7,
+          "targetPitch": -13.7,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -16.7,
+          "yaw": 109.0,
+          "type": "scene",
+          "text": "育德楼",
+          "sceneId": "main",
+          "targetYaw": 27.5,
+          "targetPitch": -6.0,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -23.4,
+          "yaw": -146.4,
+          "type": "scene",
+          "text": "求知楼",
+          "sceneId": "qiuzhi",
+          "targetYaw": 70.4,
+          "targetPitch": -37.8,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -9.6,
+          "yaw": -92.8,
+          "type": "scene",
+          "text": "宿舍三区",
+          "sceneId": "dorm3",
+          "targetYaw": 110.3,
+          "targetPitch": -10.8,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -16.7,
+          "yaw": 83.0,
+          "type": "scene",
+          "text": "明理楼",
+          "sceneId": "mingli",
+          "targetYaw": -75.1,
+          "targetPitch": -22.2,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -5.9,
+          "yaw": 85.0,
+          "type": "scene",
+          "text": "求真楼",
+          "sceneId": "qiuzhen",
+          "targetYaw": -71.6,
+          "targetPitch": -23.0,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -12.0,
+          "yaw": 89.5,
+          "type": "scene",
+          "text": "东花园",
+          "sceneId": "garden",
+          "targetYaw": -97.3,
+          "targetPitch": -13.1,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -86.4,
+          "yaw": 180,
+          "type": "scene",
+          "text": "返回校园全景",
+          "sceneId": "aerial",
+          "targetYaw": 9.5,
+          "targetPitch": -32.3,
+          "cssClass": "anxin-pin-back"
+        }
+      ]
+    },
+    "mingli": {
+      "title": "明理楼",
+      "type": "equirectangular",
+      "panorama": "panos/mingli.jpg",
+      "hfov": 100,
+      "pitch": -8,
+      "yaw": 0,
+      "hotSpots": [
+        {
+          "pitch": -20.2,
+          "yaw": 141.9,
+          "type": "scene",
+          "text": "日新楼",
+          "sceneId": "rixin",
+          "targetYaw": 59.8,
+          "targetPitch": -7.9,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -6.5,
+          "yaw": -154.8,
+          "type": "scene",
+          "text": "启慧楼",
+          "sceneId": "qihui",
+          "targetYaw": -67.6,
+          "targetPitch": -8.1,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -5.8,
+          "yaw": -136.4,
+          "type": "scene",
+          "text": "宿舍一区",
+          "sceneId": "dorm1",
+          "targetYaw": 127.8,
+          "targetPitch": -5.9,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -13.9,
+          "yaw": -136.2,
+          "type": "scene",
+          "text": "宿舍二区",
+          "sceneId": "dorm2",
+          "targetYaw": -148.2,
+          "targetPitch": -3.1,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -11.4,
+          "yaw": -106.2,
+          "type": "scene",
+          "text": "操场",
+          "sceneId": "playground",
+          "targetYaw": 155.7,
+          "targetPitch": -6.0,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -60.4,
+          "yaw": -164.9,
+          "type": "scene",
+          "text": "育德楼",
+          "sceneId": "main",
+          "targetYaw": 40.0,
+          "targetPitch": -5.3,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -15.3,
+          "yaw": -103.9,
+          "type": "scene",
+          "text": "求知楼",
+          "sceneId": "qiuzhi",
+          "targetYaw": 136.9,
+          "targetPitch": -22.2,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -9.7,
+          "yaw": -90.7,
+          "type": "scene",
+          "text": "宿舍三区",
+          "sceneId": "dorm3",
+          "targetYaw": 115.9,
+          "targetPitch": -4.6,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -22.2,
+          "yaw": -75.1,
+          "type": "scene",
+          "text": "食堂",
+          "sceneId": "canteen",
+          "targetYaw": 83.0,
+          "targetPitch": -16.7,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -30.9,
+          "yaw": 78.2,
+          "type": "scene",
+          "text": "求真楼",
+          "sceneId": "qiuzhen",
+          "targetYaw": -72.3,
+          "targetPitch": -42.4,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -33.9,
+          "yaw": 85.5,
+          "type": "scene",
+          "text": "东花园",
+          "sceneId": "garden",
+          "targetYaw": -111.8,
+          "targetPitch": -20.4,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -87.4,
+          "yaw": 180,
+          "type": "scene",
+          "text": "返回校园全景",
+          "sceneId": "aerial",
+          "targetYaw": 17.0,
+          "targetPitch": -44.5,
+          "cssClass": "anxin-pin-back"
+        }
+      ]
+    },
+    "qiuzhen": {
+      "title": "求真楼",
+      "type": "equirectangular",
+      "panorama": "panos/qiuzhen.jpg",
+      "hfov": 100,
+      "pitch": -8,
+      "yaw": 0,
+      "hotSpots": [
+        {
+          "pitch": -22.0,
+          "yaw": 143.6,
+          "type": "scene",
+          "text": "日新楼",
+          "sceneId": "rixin",
+          "targetYaw": 91.9,
+          "targetPitch": -15.4,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -6.0,
+          "yaw": -154.8,
+          "type": "scene",
+          "text": "启慧楼",
+          "sceneId": "qihui",
+          "targetYaw": -54.9,
+          "targetPitch": -6.5,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -6.3,
+          "yaw": -133.2,
+          "type": "scene",
+          "text": "宿舍一区",
+          "sceneId": "dorm1",
+          "targetYaw": 136.8,
+          "targetPitch": -4.5,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -14.2,
+          "yaw": -135.7,
+          "type": "scene",
+          "text": "宿舍二区",
+          "sceneId": "dorm2",
+          "targetYaw": -129.8,
+          "targetPitch": -2.9,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -11.5,
+          "yaw": -106.3,
+          "type": "scene",
+          "text": "操场",
+          "sceneId": "playground",
+          "targetYaw": 160.5,
+          "targetPitch": -3.9,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -57.9,
+          "yaw": -150.6,
+          "type": "scene",
+          "text": "育德楼",
+          "sceneId": "main",
+          "targetYaw": 132.9,
+          "targetPitch": -6.0,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -15.1,
+          "yaw": -103.2,
+          "type": "scene",
+          "text": "求知楼",
+          "sceneId": "qiuzhi",
+          "targetYaw": 155.7,
+          "targetPitch": -11.0,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -7.8,
+          "yaw": -89.8,
+          "type": "scene",
+          "text": "宿舍三区",
+          "sceneId": "dorm3",
+          "targetYaw": 117.5,
+          "targetPitch": -2.9,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -23.0,
+          "yaw": -71.6,
+          "type": "scene",
+          "text": "食堂",
+          "sceneId": "canteen",
+          "targetYaw": 85.0,
+          "targetPitch": -5.9,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -42.4,
+          "yaw": -72.3,
+          "type": "scene",
+          "text": "明理楼",
+          "sceneId": "mingli",
+          "targetYaw": 78.2,
+          "targetPitch": -30.9,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -33.9,
+          "yaw": 86.5,
+          "type": "scene",
+          "text": "东花园",
+          "sceneId": "garden",
+          "targetYaw": -139.8,
+          "targetPitch": -32.4,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -86.9,
+          "yaw": 180,
+          "type": "scene",
+          "text": "返回校园全景",
+          "sceneId": "aerial",
+          "targetYaw": 18.8,
+          "targetPitch": -48.5,
+          "cssClass": "anxin-pin-back"
+        }
+      ]
+    },
+    "garden": {
+      "title": "东花园",
+      "type": "equirectangular",
+      "panorama": "panos/garden.jpg",
+      "hfov": 100,
+      "pitch": -8,
+      "yaw": 0,
+      "hotSpots": [
+        {
+          "pitch": -17.5,
+          "yaw": -167.2,
+          "type": "scene",
+          "text": "日新楼",
+          "sceneId": "rixin",
+          "targetYaw": 121.4,
+          "targetPitch": -24.8,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -5.7,
+          "yaw": -150.5,
+          "type": "scene",
+          "text": "启慧楼",
+          "sceneId": "qihui",
+          "targetYaw": -52.1,
+          "targetPitch": -9.2,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -5.3,
+          "yaw": -137.7,
+          "type": "scene",
+          "text": "宿舍一区",
+          "sceneId": "dorm1",
+          "targetYaw": 140.0,
+          "targetPitch": -7.6,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -10.5,
+          "yaw": -135.0,
+          "type": "scene",
+          "text": "宿舍二区",
+          "sceneId": "dorm2",
+          "targetYaw": -124.9,
+          "targetPitch": -6.3,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -8.0,
+          "yaw": -112.7,
+          "type": "scene",
+          "text": "操场",
+          "sceneId": "playground",
+          "targetYaw": 163.5,
+          "targetPitch": -5.0,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -25.0,
+          "yaw": -132.4,
+          "type": "scene",
+          "text": "育德楼",
+          "sceneId": "main",
+          "targetYaw": 145.3,
+          "targetPitch": -12.9,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -12.0,
+          "yaw": -115.5,
+          "type": "scene",
+          "text": "求知楼",
+          "sceneId": "qiuzhi",
+          "targetYaw": 158.9,
+          "targetPitch": -13.4,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -8.0,
+          "yaw": -100.0,
+          "type": "scene",
+          "text": "宿舍三区",
+          "sceneId": "dorm3",
+          "targetYaw": 119.5,
+          "targetPitch": -5.3,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -13.1,
+          "yaw": -97.3,
+          "type": "scene",
+          "text": "食堂",
+          "sceneId": "canteen",
+          "targetYaw": 89.5,
+          "targetPitch": -12.0,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -20.4,
+          "yaw": -111.8,
+          "type": "scene",
+          "text": "明理楼",
+          "sceneId": "mingli",
+          "targetYaw": 85.5,
+          "targetPitch": -33.9,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -32.4,
+          "yaw": -139.8,
+          "type": "scene",
+          "text": "求真楼",
+          "sceneId": "qiuzhen",
+          "targetYaw": 86.5,
+          "targetPitch": -33.9,
+          "cssClass": "anxin-pin"
+        },
+        {
+          "pitch": -88.3,
+          "yaw": 180,
+          "type": "scene",
+          "text": "返回校园全景",
+          "sceneId": "aerial",
+          "targetYaw": 49.4,
+          "targetPitch": -58.9,
+          "cssClass": "anxin-pin-back"
+        }
+      ]
+    }
+  }
+}

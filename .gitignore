@@ -1,0 +1,38 @@
+# 备份
+*.bak
+tour.json.bak_*
+
+# Dev 工具
+tools/
+thumb-editor.html
+scene-link-editor.html
+hotspot-editor.html
+campus-2d.html
+README.md
+
+# Dev 临时文件
+_thumb_aerial.jpg
+_check_*.jpg
+_mapping_check.jpg
+_test_pannellum.html
+tmp_*.js
+
+# Dev panos
+panos/_link_thumb/
+panos/_mapping.json
+panos/_user_mapping.json
+panos/*_D.JPG
+panos/*_D-2.jpg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# WorkBuddy
+.workbuddy/
